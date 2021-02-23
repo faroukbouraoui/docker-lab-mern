@@ -1,0 +1,59 @@
+
+
+
+h1 {
+  margin: 0 0 1em;
+}
+.group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+input[type="checkbox"]
+ {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  
+}
+label {
+  position: relative;
+  margin-right: 1em;
+  padding-left: 2em;
+  padding-right: 1em;
+  line-height: 2;
+  cursor: pointer;
+
+}
+label::before {
+    box-sizing: border-box;
+    content: " ";
+    position: absolute;
+    top: 0.3em;
+    left: 0;
+    display: block;
+    width: 1.4em;
+    height: 1.4em;
+    border: 2px solid white;
+    border-radius: 5em;
+    z-index: -1;
+  }
+
+/* Checked */
+input[type="checkbox"]:checked + label
+ {
+  padding-left: 1em;
+  color: #FF9C1E;
+  background-color: #07516E;
+
+}
+
+/* Transition */
+label,
+label::before {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+  background-color: #fff;
+  border-radius: 15px;
+}

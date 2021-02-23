@@ -1,0 +1,117 @@
+:root{
+    --primary:#F4FAFF;
+    
+}
+
+.btn{
+    padding: 8px 20px;
+    border-radius: 5px;
+    outline:none;
+    border:none;
+    cursor: pointer;
+    white-space:nowrap ;
+   
+}
+
+
+.btn--primary{
+    background-color:#07516E ;
+    color:#fff;
+    border-radius: 28px;
+    
+}
+.btn--primary1{
+    background-color:#07516E ;
+    color:#fff;
+    border-radius: 28px;
+    
+}
+.btn--outline{
+    background-color: #FF9C1E;
+    color: #fff;
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    border-radius: 28px;
+}
+
+.btn--medium{
+    padding:8px 20px;
+    font-size: 18px;
+}
+.btn--large{
+    padding: 12px 26px;
+    font-size: 20px;
+}
+.btn--mobile{
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 24px;
+    background-color:#FF9C1E ;
+    color: #fff;
+    padding: 14px 20px;
+    transition: all 0.3s ease-out;
+}
+.btn--mobile1{
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 24px;
+    background-color:#07516E ;
+    color: #fff;
+    padding: 14px 20px;
+    transition: all 0.3s ease-out;
+}
+.btn--wide{
+    padding: 12px 64px;
+    font-size: 20px;
+}
+.btn--medium:hover, .btn--large:hover, .btn--mobile:hover{
+    transition: all 0.3s ease-out;
+    background-color: #fff;
+    color:#FF9C1E ;
+}
+.btn--mobile1:hover{
+    transition: all 0.3s ease-out;
+    background-color: #fff;
+    color:#07516E ;
+}
+.btn--wide:hover{
+color:#fff;
+background-color:#FF9C1E ;
+transition: all 0.2s ease-out;
+}
+.orange{
+    background-color: #FF9C1E;
+    color:#fff;
+    border: none;
+
+}
+.primary{
+    background-color: #07516E;
+    color: #fff;
+    border: none;
+}
+.primary:hover{
+    background-color: #fff;
+    color: #07516E;
+}
+.orange:hover{
+    background-color: #FF9C1E;
+    color: #FFF;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
+}
+.btn-link:hover{
+    text-decoration: none;
+}

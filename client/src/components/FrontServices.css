@@ -1,0 +1,38 @@
+.service{
+    padding: 100px 0 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #07516E;
+}
+.paragraphe{
+    margin-top: 16%;
+    margin-left: -31%;
+    color: #fff;
+}
+.service__title{
+    color: #fff;
+}
+.img_temp{
+    padding: 15px;
+    border-radius: 30px;
+    
+}
+.img_temp:hover{
+    opacity: 0.8!important;
+  
+
+}
+.title_temp{
+padding-left: 34%;
+color:#FF9C1E ;
+}
+.media-body{
+    max-width: 202px;
+}
+@media screen and (max-width: 960px){
+    .paragraphe{
+        margin-top: 0;
+        margin-left: 0;
+    }
+}

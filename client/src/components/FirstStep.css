@@ -1,0 +1,13 @@
+div.firststep{
+    display: flex;
+}
+/*.form-control::placeholder{
+    color: #FF9C1E;
+}*/
+.formone{
+    width: 30%;
+}
+.form-control{
+    background-color: #07516E;
+}
+

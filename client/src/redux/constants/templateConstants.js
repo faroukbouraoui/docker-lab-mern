@@ -1,0 +1,2 @@
+export const GET_TEMPLATES = 'GET_TEMPLATES';
+export const CREATE_TEMPLATE = 'CREATE_TEMPLATE';
